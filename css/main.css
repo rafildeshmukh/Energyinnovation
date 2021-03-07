@@ -1095,7 +1095,7 @@ th {
   border: 1px solid #cea06c;
 }
 .banner-area {
-  background: url(../img/common-banner.jpg) no-repeat;
+  /* background: url(../img/common-banner.jpg) no-repeat; */
   background-size: cover;
 }
 .banner-area .banner-content {
@@ -3840,10 +3840,16 @@ img.hover-shadow {
   display: block;
 }
 
-a.nav-color{
-color: #0079A7 !important; 
-font-weight: 900;
-font-size:14px;
+
+a.nav-color {
+  color: white !important; 
+  font-weight: 500;
+  font-size:16px;
+  }
+
+
+.is-sticky a.nav-link.nav-color {
+  color: #0079A7 !important; 
 }
 
 li:hover >ul{
@@ -3854,3 +3860,19 @@ li:hover >ul{
   /* border: 1px solid #015B80; */
   box-shadow: 3px 5px #c0e4f3;
 }
+.is-sticky .logo_white{
+display: none;
+}
+
+.logo_white{
+display: block;
+}
+
+
+.is-sticky .logo_blue{
+  display: block;
+  }
+  
+  .logo_blue{
+  display:none ;
+  }
