@@ -996,11 +996,11 @@ th {
   }
 }
 .navbar-nav .dropdown .dropdown-item {
-  color: #263a4e;
+  color: #0079A7 !important;
   text-transform: capitalize;
 }
 .navbar-nav .dropdown .dropdown-item:hover {
-  color: #cea06c;
+  color:#f4841e;
 }
 @media (max-width: 991px) {
   .navbar-nav .dropdown .dropdown-item {
