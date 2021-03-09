@@ -16,14 +16,20 @@
     <meta name="keywords" content="" />
     <!-- meta character set -->
     <meta charset="UTF-8" />
-    
-     <!-- meta banner link W3CSS -->
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <style>
-        .mySlides {display:none;}
-        </style>
-    
+
+    <!-- meta banner link W3CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <style>
+      .mySlides {
+        display: none;
+      }
+
+      body {
+        background-color: #ecfcff;
+      }
+    </style>
+
     <!-- Site Title -->
     <title>Energy Innovation's</title>
 
@@ -43,114 +49,158 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
-  <body>
+  <body style="background-color: #ecfcff">
     <!-- Start Header Area -->
-    <!-- <header class="default-header">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="img/logo.png" alt="" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="fa fa-bars"></span>
-          </button>
-
-          <div
-            class="collapse navbar-collapse justify-content-end align-items-center"
-            id="navbarSupportedContent"
-          >  -->
-
     <header class="default-header">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top navbar-light">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="img/energy_8.png" alt="" width="170" height="40" />
+            <img
+              src="img/logo.png"
+              alt=""
+              width="190"
+              height="55"
+              class="logo_blue"
+            />
+            <img
+              src="img/white_logo.png"
+              alt=""
+              width="190"
+              height="55"
+              class="logo_white"
+            />
           </a>
           <button
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="fa fa-bars"></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
-
           <div
-            class="collapse navbar-collapse justify-content-end align-items-center"
-            id="navbarSupportedContent"
+            class="collapse navbar-collapse justify-content-around align-items-center"
+            id="navbarTogglerDemo01"
           >
-            <!-- <ul class="navbar-nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li class="dropdown">
-                <a
-                  class="dropdown-toggle active"
-                  href="#"
-                  id="navbardrop"
-                  data-toggle="dropdown"
-                >
-                  Pages
-                </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="projects.html">Projects</a>
-                  <a class="dropdown-item" href="elements.html">Elements</a>
-                </div>
-              </li>
-              <li class="dropdown">
-                <a
-                  class="dropdown-toggle"
-                  href="#"
-                  id="navbardrop"
-                  data-toggle="dropdown"
-                >
-                  Blog
-                </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="blog-home.html">Blog</a>
-                  <a class="dropdown-item" href="blog-single.html"
-                    >Blog Details</a
-                  >
-                </div>
-              </li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul> -->
-
             <ul class="navbar-nav">
-              <li><a class="active" href="index.html">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li class="dropdown">
+              <li class="nav-item active ml-4 mr-4">
+                <a class="nav-link nav-color" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item ml-4 mr-4">
+                <a class="nav-link nav-color" href="about.html">About Us</a>
+              </li>
+
+              <li class="nav-item dropdown ml-4 mr-4">
                 <a
-                  class="dropdown-toggle"
-                  href="#"
-                  id="navbardrop"
+                  class="nav-link dropdown-toggle nav-color"
+                  href="http://example.com"
+                  id="navbarDropdownMenuLink"
                   data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
                 >
                   Our Services
                 </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="projects.html">WindStream</a>
-                  <a class="dropdown-item" href="mechanical.html"
-                    >Mechanical WorkShop</a
-                  >
-                  <a class="dropdown-item" href="security.html"
-                    >Security Cameras & Surveillance</a
-                  >
-                </div>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li class="dropdown-submenu">
+                    <a
+                      class="dropdown-item dropdown-toggle"
+                      href="projects.html"
+                      >WindStream</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="Solar.html"
+                          >SolarMill®</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">PowerMill™</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">MobileMill™</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">TowerMill®</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >SolarMill® – EV Charging</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >SolarMill® – Fishing Boat</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >SolarMill® – Floating Plant</a
+                        >
+                      </li>
+                      <!-- <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#"
+                          >Subsubmenu</a
+                        >
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Subsubmenu action</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Another subsubmenu action</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#"
+                          >Second subsubmenu</a
+                        >
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Subsubmenu action</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Another subsubmenu action</a
+                            >
+                          </li>
+                        </ul>
+                      </li> -->
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">Mechanical WorkShop</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Security Cameras & Surveillance</a
+                    >
+                  </li>
+                </ul>
               </li>
-              <li><a href="services.html">Resources</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li class="nav-item active ml-4 mr-4">
+                <a class="nav-link nav-color" href="services.html"
+                  >Resources <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item ml-4 mr-4">
+                <a class="nav-link nav-color" href="contact.html">Contact Us</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -159,133 +209,230 @@
     <!-- End Header Area -->
 
     <!-- Start top-section Area -->
-   <section class="banner-area relative"> 
-     <div class="overlay overlay-bg"></div>
-     <div class="container">
-    
-     <div class="row justify-content-between align-items-center text-center banner-content">
-         
-         <!-- Slider Start -->
-         
-    <!--     <div class="row justify-content-between align-items-center text-center banner-content" style="max-width:1280px">
-  <img class="mySlides w3-animate-top" src="img/windstream/1.jpg" style="width:100%">
-  <img class="mySlides w3-animate-bottom" src="img/windstream/2.jpg" style="width:100%">
-  <img class="mySlides w3-animate-top" src="img/windstream/3.jpg" style="width:100%">
-  <img class="mySlides w3-animate-bottom" src="img/windstream/4.jpg" style="width:100%">
-</div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2500);    
-}
-</script> -->
-         
-         <!-- Slider End -->
-         
-            
+    <section class="banner-area banner-area-solar relative">
+      <div class="overlay overlay-bg"></div>
+      <div class="container">
+        <div
+          class="row justify-content-between align-items-center text-center banner-content"
+        >
           <div class="col-lg-12">
-            <h1 class="text-white">Solar Mill®</h1>
+            <h1 class="text-white">SM1-1P</h1>
             <p>Days so us evening for herb bearing lesser man female night</p>
           </div>
-          
         </div>
       </div>
     </section>
     <!-- End top-section Area -->
-   
-   
-    <div class="container d-flex flex-column flex-lg-row  justify-content-between mt-4">
+    <div
+      class="container d-flex flex-column flex-lg-row justify-content-between mt-4"
+    >
       <div class="col-12 col-lg-6">
         <h1>Solar Mill®</h1>
-    <p style="text-align: justify;" class="mt-2">The SolarMill® is the world’s most complete renewable energy generation device. Instead of a footprint dedicated to a singular solution, WindStream Technologies’ engineers have designed a unique set of vertical axis wind turbines, added the highest quality solar panels, and a patented system of integrated electronics, to create a hybrid device with the highest energy density in the market. As seen in the chart below, the daily and seasonal trends of wind and solar resources are all mitigated by capturing both at any time of the day or year.</p>
-
+        <p style="text-align: justify" class="mt-2">
+          The SolarMill® is the world’s most complete renewable energy
+          generation device. Instead of a footprint dedicated to a singular
+          solution, WindStream Technologies’ engineers have designed a unique
+          set of vertical axis wind turbines, added the highest quality solar
+          panels, and a patented system of integrated electronics, to create a
+          hybrid device with the highest energy density in the market. As seen
+          in the chart below, the daily and seasonal trends of wind and solar
+          resources are all mitigated by capturing both at any time of the day
+          or year.
+        </p>
       </div>
       <!-- <div class="col-lg-6 mb-4"> -->
       <div class="col-12 col-lg-6">
         <img
-                      class="image img-fluid"
-                      src="img/windstream/solar/solarmil-1-150x150.jpg"
-                      alt="" style="height:300px"
-                    /> 
-            
+          class="image img-fluid"
+          src="img/windstream/solar/solarmil-1-150x150.jpg"
+          alt=""
+          style="height: 300px"
+        />
       </div>
     </div>
-    
-    
-    
+
     <!-- Start Duplicate Data -->
-    
-     
-    <div class="container d-flex flex-column flex-lg-row  justify-content-between mt-4">
+
+    <div
+      class="container d-flex flex-column flex-lg-row justify-content-between mt-4"
+    >
       <div class="col-12 col-lg-6">
         <h1>Performance Advantages</h1>
-  <p style="text-align: justify;" class="mt-2"><i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Roof-Top Wind &amp; Solar Hybrid Energy System.<br>
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Stable 24-hour power production capability.<br>
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Maximizes energy density.<br>
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Scalable power generation.<br>
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Mechanical braking at high-speed winds beyond 18.5 m/s.<br>
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Appropriate for on or off grid applications.<br>
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Offsets peak energy pricing for grid-tied systems.<br>
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Online tool for power generation monitoring.<br>
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Power generation starting at 2 m/s wind speed.</p>
-
+        <p style="text-align: justify" class="mt-2">
+          <i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i
+          >&nbsp;Roof-Top Wind &amp; Solar Hybrid Energy System.<br />
+          <i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i
+          >&nbsp;Stable 24-hour power production capability.<br />
+          <i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i
+          >&nbsp;Maximizes energy density.<br />
+          <i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i
+          >&nbsp;Scalable power generation.<br />
+          <i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i
+          >&nbsp;Mechanical braking at high-speed winds beyond 18.5 m/s.<br />
+          <i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i
+          >&nbsp;Appropriate for on or off grid applications.<br />
+          <i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i
+          >&nbsp;Offsets peak energy pricing for grid-tied systems.<br />
+          <i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i
+          >&nbsp;Online tool for power generation monitoring.<br />
+          <i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i
+          >&nbsp;Power generation starting at 2 m/s wind speed.
+        </p>
       </div>
-      
+
       <!--  <div class="col-lg-6 mb-4">  -->
       <div class="col-12 col-lg-6">
-           <img
-                      class="image img-fluid"
-                      src="img/windstream/solar/solarmil-5-150x150.jpg"
-                      alt="" style="height:300px"
-                    />
+        <img
+          class="image img-fluid"
+          src="img/windstream/solar/solarmil-5-150x150.jpg"
+          alt=""
+          style="height: 300px"
+        />
       </div>
     </div>
 
-<div class="container d-flex flex-column flex-lg-row justify-content-between mt-4">
-      <div class="col-12 col-lg-6">
-        <h1>Features</h1>
-  <p style="text-align: justify;" class="mt-2">
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Low profile Vertical Axis Savonius Wind Turbines. Cut-in wind speed – 2 m/s & Cut-out wind speed – 18.5 m/s.<br>
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Scalable to user defined KW need – interconnection cables provided.<br>
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Integrated Maximum Power Point Tracking (MPPT) with “smart” bus logic control technology – 48vDC.<br>
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Easy assembly and maintenance.<br>
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Minimal running maintenance required.<br>
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Custom colors available.<br>
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Temperature sensing electronics for thermal protection.<br>
-<i class="fa fa-angle-double-right icn-clr" aria-hidden="true"></i>&nbsp;Able to withstand temperature ranges from -30°C to 50°C.</p>
-
-      </div>
+    <div
+      class="container d-flex flex-column flex-lg-row justify-content-between mt-4"
+    >
+      <div class="col-12 col-lg-6"></div>
       <!-- <div class="col-lg-6 mb-4"> -->
-       <div class="col-12 col-lg-6">
-           
-            <!-- -->
-           
-           <img
-                      class="image img-fluid"
-                      src="img/windstream/solar/solarmil-7-150x150.jpeg"
-                      alt="" style="height:300px"
-                    />
+      <div class="col-12 col-lg-6">
+        <img
+          class="image img-fluid"
+          src="img/windstream/solar/solarmil-7-150x150.jpeg"
+          alt=""
+          style="height: 300px"
+        />
       </div>
     </div>
-    
+
+    <div class="container mt-4 mb-4" style="background-color: #ecfcff">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#s1">OverView</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#s2"
+            >Technical Specification</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#s3">Model Comparision</a>
+        </li>
+      </ul>
+      <!-- Tab panes -->
+      <div class="tab-content card p-3">
+        <div class="tab-pane container fade in show active" id="s1">
+          <h1 class="pt-2 secondary-color">Features</h1>
+          <p style="text-align: justify" class="mt-2">
+            <i
+              class="fa fa-angle-double-right icn-clr primary-color font-weight-bold pr-1"
+              aria-hidden="true"
+            ></i
+            >&nbsp;Low profile Vertical Axis Savonius Wind Turbines. Cut-in wind
+            speed – 2 m/s & Cut-out wind speed – 18.5 m/s.<br />
+            <i
+              class="fa fa-angle-double-right icn-clr primary-color font-weight-bold pr-1"
+              aria-hidden="true"
+            ></i
+            >&nbsp;Scalable to user defined KW need – interconnection cables
+            provided.<br />
+            <i
+              class="fa fa-angle-double-right icn-clr primary-color font-weight-bold pr-1"
+              aria-hidden="true"
+            ></i
+            >&nbsp;Integrated Maximum Power Point Tracking (MPPT) with “smart”
+            bus logic control technology – 48vDC.<br />
+            <i
+              class="fa fa-angle-double-right icn-clr primary-color font-weight-bold pr-1"
+              aria-hidden="true"
+            ></i
+            >&nbsp;Easy assembly and maintenance.<br />
+            <i
+              class="fa fa-angle-double-right icn-clr primary-color font-weight-bold pr-1"
+              aria-hidden="true"
+            ></i
+            >&nbsp;Minimal running maintenance required.<br />
+            <i
+              class="fa fa-angle-double-right icn-clr primary-color font-weight-bold pr-1"
+              aria-hidden="true"
+            ></i
+            >&nbsp;Custom colors available.<br />
+            <i
+              class="fa fa-angle-double-right icn-clr primary-color font-weight-bold pr-1"
+              aria-hidden="true"
+            ></i
+            >&nbsp;Temperature sensing electronics for thermal protection.<br />
+            <i
+              class="fa fa-angle-double-right icn-clr primary-color font-weight-bold pr-1"
+              aria-hidden="true"
+            ></i
+            >&nbsp;Able to withstand temperature ranges from -30°C to 50°C.
+          </p>
+        </div>
+        <div class="tab-pane container fade" id="s2">
+          <table class="table table-striped">
+            <thead class="text-white text-center" style="background-color: #0079a7">
+              <tr>
+                <th scope="col" colspan="2">Entire System</th>                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>SolarMill Dimensions</td>
+                <td>1460 mm (L) x 850 mm (W) x 1900 mm (H)</td>
+              </tr>
+              <tr>
+                <td>Weight</td>
+                <td>185 lbs | 83.91 kgs</td>
+              </tr>
+              <tr>
+                <td>Larry</td>
+                <td>the Bird</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tab-pane container fade" id="s3">
+          <table class="table table-striped">
+            <thead class="text-white" style="background-color: #0079a7">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
 
     <!-- End Duplicate Data -->
-    
-    
+
     <!-- start footer Area -->
 
-<!-- start footer Area -->
+    <!-- start footer Area -->
     <footer class="footer-area section-gap">
       <div class="container">
         <div class="row">
@@ -363,52 +510,6 @@ function carousel() {
     </footer>
     <!-- End footer Area -->
 
-    <!-- End footer Area -->
-    
-    
-    
-    <script>
-      function openModal() {
-        document.getElementById("myModal").style.display = "block";
-      }
-
-      function closeModal() {
-        document.getElementById("myModal").style.display = "none";
-      }
-
-      var slideIndex = 1;
-      showSlides(slideIndex);
-
-      function plusSlides(n) {
-        showSlides((slideIndex += n));
-      }
-
-      function currentSlide(n) {
-        showSlides((slideIndex = n));
-      }
-
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        //var dots = document.getElementsByClassName("demo");
-        var captionText = document.getElementById("caption");
-        if (n > slides.length) {
-          slideIndex = 1;
-        }
-        if (n < 1) {
-          slideIndex = slides.length;
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        //for (i = 0; i < dots.length; i++) {
-        // dots[i].className = dots[i].className.replace(" active", "");
-        //}
-        slides[slideIndex - 1].style.display = "block";
-        //dots[slideIndex - 1].className += " active";
-        // captionText.innerHTML = dots[slideIndex - 1].alt;
-      }
-    </script>
     <script src="js/vendor/jquery-2.2.4.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
@@ -426,3 +527,98 @@ function carousel() {
     <script src="js/main.js"></script>
   </body>
 </html>
+<!-- Slider Start -->
+
+<!--     <div class="row justify-content-between align-items-center text-center banner-content" style="max-width:1280px">
+  <img class="mySlides w3-animate-top" src="img/windstream/1.jpg" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="img/windstream/2.jpg" style="width:100%">
+  <img class="mySlides w3-animate-top" src="img/windstream/3.jpg" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="img/windstream/4.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2500);    
+}
+</script> -->
+
+<!-- Slider End -->
+
+<!-- End footer Area -->
+
+<script>
+  // function openModal() {
+  //   document.getElementById("myModal").style.display = "block";
+  // }
+
+  // function closeModal() {
+  //   document.getElementById("myModal").style.display = "none";
+  // }
+
+  // var slideIndex = 1;
+  // showSlides(slideIndex);
+
+  // function plusSlides(n) {
+  //   showSlides((slideIndex += n));
+  // }
+
+  // function currentSlide(n) {
+  //   showSlides((slideIndex = n));
+  // }
+
+  // function showSlides(n) {
+  //   var i;
+  //   var slides = document.getElementsByClassName("mySlides");
+  //   //var dots = document.getElementsByClassName("demo");
+  //   var captionText = document.getElementById("caption");
+  //   if (n > slides.length) {
+  //     slideIndex = 1;
+  //   }
+  //   if (n < 1) {
+  //     slideIndex = slides.length;
+  //   }
+  //   for (i = 0; i < slides.length; i++) {
+  //     slides[i].style.display = "none";
+  //   }
+  //for (i = 0; i < dots.length; i++) {
+  // dots[i].className = dots[i].className.replace(" active", "");
+  //}
+  //slides[slideIndex - 1].style.display = "block";
+  //dots[slideIndex - 1].className += " active";
+  // captionText.innerHTML = dots[slideIndex - 1].alt;
+  //  }
+</script>
+
+<!-- <header class="default-header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="fa fa-bars"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end align-items-center"
+            id="navbarSupportedContent"
+          >  -->
