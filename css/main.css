@@ -3637,6 +3637,11 @@ h6 {
   background: url(../img/common-banner.jpg)
 }
 
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  color: #ffffff;
+  background-color: #0079a7;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
 /* element.style {
 } */
 a:not([href]):not([tabindex]) {
