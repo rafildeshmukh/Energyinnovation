@@ -3637,6 +3637,14 @@ h6 {
   background: url(../img/common-banner.jpg)
 }
 
+.navbar-nav a:hover, .navbar-nav a.active {
+  color: #f4841e !important;
+}
+
+.is-sticky a.nav-link.nav-color.active {
+  color: #f4841e !important;
+}
+
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
   color: #ffffff;
   background-color: #0079a7;
