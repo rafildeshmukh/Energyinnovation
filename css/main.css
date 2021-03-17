@@ -595,36 +595,36 @@ th {
   margin-right: 0;
 }
 .section-gap {
-  padding: 130px 0;
+  padding: 60px 0;
 }
 @media (max-width: 991px) {
   .section-gap {
-    padding: 70px 0;
+    padding: 50px 0;
   }
 }
 .section-gap-top {
-  padding-top: 130px;
+  padding-top: 60px;
 }
 @media (max-width: 991px) {
   .section-gap-top {
-    padding-top: 70px;
+    padding-top: 50px;
   }
 }
 .section-gap-bottom {
-  padding-bottom: 130px;
+  padding-bottom: 30px;
 }
 @media (max-width: 991px) {
   .section-gap-bottom {
-    padding-bottom: 70px;
+    padding-bottom: 20px;
   }
 }
 .section-title {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 @media (max-width: 991px) {
   .section-title {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 .section-title h4 {
@@ -1324,11 +1324,11 @@ th {
   border: 1px solid #cea06c;
 }
 .project-area {
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 @media (max-width: 991px) {
   .project-area {
-    padding-bottom: 40px;
+    padding-bottom: 10px;
   }
 }
 .project-area .filters {
@@ -1367,7 +1367,7 @@ th {
 }
 .project-area .filters ul li.active,
 .project-area .filters ul li:hover {
-  color: #cea06c;
+  color: #f4841e;
 }
 .project-area .filters-content .show {
   opacity: 1;
@@ -3544,7 +3544,7 @@ h6 {
   perspective: 150rem;
   -moz-perspective: 150rem;
   height: 270px;
-  width: 270px;
+  width: 345px;
   text-align: center;
   position: relative;
   color: white;
@@ -3561,17 +3561,31 @@ h6 {
   backface-visibility: hidden;
   overflow: hidden;
   border-radius: 5%;
-  background: rgba(5, 10, 52, 0.7);
+  background: #0079A7;
 }
 
 .feature__cardsidefront {
-  background: url(../img/div-3.png);
+  background: url(../img/windstream/1.jpg);
   background-repeat: no-repeat;
+}
+
+.feature__cardsidefront.feature__cardsidefront-1 {
+  background: url(../img/windstream/1.jpg);
+  background-repeat: round;
+}
+.feature__cardsidefront.feature__cardsidefront-2 {
+  background: url(../img/mechanical.jpg);
+  background-repeat: round;
+}
+
+.feature__cardsidefront.feature__cardsidefront-3 {
+  background: url(../img/security.jpg);
+  background-repeat: round;
 }
 
 .feature__cardsideback {
   transform: rotateY(180deg);
-  background: rgba(5, 10, 52, 0.7);
+  background: #0079A7;
 }
 
 .feature__card:hover .feature__cardsidefront {
@@ -3596,9 +3610,9 @@ h6 {
 
 .feature__point {
   padding: 30px;
-  color: white !important;
+  color: #f4841e !important;
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .product__box {
@@ -3673,6 +3687,11 @@ a:not([href]):not([tabindex]) {
   border: 1px solid #fff;
   border-radius: 10px;
   padding: 15px 25px;
+  color: white;
+}
+
+.imgbox_height{
+  height: 477px;
 }
 
 
