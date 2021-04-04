@@ -1400,10 +1400,10 @@ th {
   position: absolute;
   right: 0;
   top: 0px;
-  min-width: 290px;
+  min-width: 240px;
   background: #fff;
   box-shadow: 0px -10px 30px rgba(38, 58, 78, 0.1);
-  padding: 34px 30px;
+  padding: 34px 20px;
 }
 @media (min-width: 1200px) {
   .single-project .middle {
@@ -3955,6 +3955,15 @@ display: block;
     border-bottom-right-radius:150px;
 
   }
+
+  .box-small {
+    height: 300px;
+  }
+
+  .box-big {
+    height: 400px;
+  }
+
 
   .r-more-o{
     background: #f4841e;
