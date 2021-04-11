@@ -1367,7 +1367,7 @@ th {
 }
 .project-area .filters ul li.active,
 .project-area .filters ul li:hover {
-  color: #f4841e;
+  color: #f4841e !important;
 }
 .project-area .filters-content .show {
   opacity: 1;
@@ -3932,10 +3932,6 @@ display: none;
 display: block;
 }
 
-.i4ewOd-pzNkMb-haAclf {
-  background-color: rgb(77,106,121);
-  display: none  !important;
-}
 
 .is-sticky .logo_blue{
   display: block;
